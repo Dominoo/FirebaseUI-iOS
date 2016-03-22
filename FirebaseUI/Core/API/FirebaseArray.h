@@ -79,6 +79,13 @@
  */
 - (instancetype)initWithQuery:(FQuery *)query;
 
+/**
+ * Intitalizes FirebaseArray with a Firebase query (FQuery).
+ * @param query A query on a Firebase reference which provides filtered data to FirebaseArray
+ * @return The instance of FirebaseArray
+ */
+- (instancetype)initWithQuery:(FQuery *)query orderASC:(BOOL)order;
+
 #pragma mark -
 #pragma mark Public API methods
 
