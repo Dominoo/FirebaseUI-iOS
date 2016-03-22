@@ -62,6 +62,13 @@
  */
 @property(strong, nonatomic) NSMutableArray __GENERIC(FDataSnapshot *) * snapshots;
 
+
+/**
+ * Ordering of elements in array from Query default (true) is ASC for DESC ordering set to false
+ */
+@property (assign) BOOL orderASC;
+
+
 #pragma mark -
 #pragma mark Initializer methods
 

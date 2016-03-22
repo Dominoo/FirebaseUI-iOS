@@ -34,10 +34,6 @@
 
 #import "FirebaseArray.h"
 
-@interface FirebaseArray ()
-@property (assign) BOOL orderASC;
-@end
-
 @implementation FirebaseArray
 
 #pragma mark -
